@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PORTFOLIO WEBSITE</title>
+        <link rel="stylesheet" href="style2.css">
+        <script src="https://kit.fontawesome.com/8b2d22fa90.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+   <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class=" fas fa-solid fa-circle-xmark" style="color:#ffffff;" onclick="closemenu()"></i>
+        </ul>
+        
+        <i class="fas fa-solid fa-bars" style="color:hsl(0, 93%, 58%);" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p>Hello..!!!</p>
+        <h1>Welcome to My Portfolio!,It's me <span>  Pradnya</span>
+            <br>I'm excited to showcase my work and journey with you.</h1>
+    </div>
+
+</div>
+</div>
+<!--------about-->
+<div id="about">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="images/py.jpg">
+
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title"><br>About Me<br></h1>
+            <p>  I am currently in my third year of studying Computer Engineering at SPPU. I pride myself on being responsible and organized. As I prepare for my first work
+                experience, I am excitedly searching for opportunities to gain hands-on experience and make a positive impact in a vibrant work setting.
+                </p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('certificate')">Certificate</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-link" id="skills">
+                <ul>
+                    <li><span>Web Development</span></li>
+                    <li><span>Java</span></li>
+                    <li><span>Python</span></li>
+                    <li><span>C++</span></li>
+                    <li><span>SQL</span></li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="certificate">
+                <ul>
+                    <li><span>C++ Certificate</span></li>
+                    <li><span>Virtual Experience Program</span></li>
+                    <li><span>Python </span></li>
+                    <li><span>React JS</span></li>
+                    <li><span>SQL</span></li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2022-2025</span><br>AISSMS,COE,PUNE</li>
+                    <li><span>2019-2021</span><br>SWAKAR COLLEGE OF ENGINEERING</li>
+                    <li><span>2019</span><br>MONA SCHOOL</li>
+                    
+                </ul>
+            </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!---/*--------service----*/-->
+<div id="certificates">
+    <div class="container">
+        <h1 class="sub-title">My Cetificates</h1>
+        <div class="certificates-list">
+            <div>
+                <i class="fa-solid fa-code" style="color: #63e0e9;"></i>
+                <h2> C++</h2>
+                <p> Udemy Certificate in C++ Programming Beginner to Advance [MAY 18,2023].
+                    ·Comprehensive course covering C++
+                    fundamentals, object-oriented programming,
+                    data structures, and algorithms.
+                    ·Developed practical skills through hands-on
+                    coding exercises and projects.
+                    ·Explored advanced topics such as memory
+                    management, file handling, and exception
+                    handling</p>
+                <a href="https://drive.google.com/file/d/1pvtTChmElql2dRM6ya5j_HHDyVTvukRt/view"><i class="fa-solid fa-link fa-beat-fade" style="color: #80ff99;"></i>Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-computer" style="color: #8af7ff;"></i>
+                <h2> ESG Virtual Experience Program</h2>
+                <p>Improved understanding of ESG principles and concepts.
+                    This program delved into crucial Environmental, Social, and Governance topics, equipping me with a comprehensive understanding.
+                </p>
+                <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Tata/N8Muuhk6XsXgMTeu2_Tata%20Consultancy%20Services_GpPJZmDE48FSdHABp_1690010616127_completion_certificate.pdf"><i class="fa-solid fa-link fa-beat-fade" style="color: #80ff99;"></i>Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-react" style="color: #48fefb;"></i>
+                <h2>React JS Tutorial</h2>
+                <p>Successfully completed the "React JS Tutorial" course offered by Great Learning Academy. </p>
+                <a href="https://olympus.mygreatlearning.com/courses/52045/certificate"><br><br><br><br><br><br><br><br><i class="fa-solid fa-link fa-beat-fade" style="color: #80ff99;"></i>Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-file" style="color: #80fdff;"></i>
+                <h2>Front End Web Development</h2>
+                <p>7-day bootcamp of Front End Web Development using React JS and JavaScript organized by Devtown, mentored by Shaurya Sinha.</p>
+                <a href="file:///C:/Users/dell/Downloads/Z19x69o%20(2).pdf"><i class="fa-solid fa-link fa-beat-fade" style="color: #80ff99;"></i>Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python" style="color: #62e2f3;"></i>
+                <h2>Python</h2>
+                <p> Introduce and learned OOP concepts like classes, objects, inheritance, and polymorphism.
+                    Exception Handling: Explain how to handle errors using try...except blocks</p>
+                <a href="https://www.guvi.in/verify-certificate?id=6910dp2qlZ778Kj01t&course=pythonEng"><i class="fa-solid fa-link fa-beat-fade" style="color: #80ff99;"></i>Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database" style="color: #7afff6;"></i>
+                <h2>DataPlus Overview Course</h2>
+                <p>Learned various topics related to data</p>
+                <a href="https://drive.google.com/file/d/1O4lIH2Mi7NsBrhmEYSP6svzLp6XrYGWZ/view"><br><br><i class="fa-solid fa-link fa-beat-fade" style="color: #80ff99;"></i>Learn more</a>
+            </div>
+        </div>
+
+    </div>
+    
+</div>
+<!--portfolio-->
+<div id="portfolio">
+    <div clas="container">
+        <h1 class="sub-title">Education</h1>
+        <div class="eduction-list">
+            <div class="education">
+                <img src="images/user4.jpg">
+                <div class="layer">
+                    <h3>AISSMS COE</h3>
+                    <p>2022-2025</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #3dbef5;"></i></a>
+                </div>
+
+            </div>
+            <div class="education">
+                <img src="images/user2.png">
+                <div class="layer">
+                    <h3>SAWKAR COLLEGE OF ENGINEERING</h3>
+                    <p>2019-2021</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #3dbef5;"></i></a>
+                </div>
+
+            </div>
+            <div class="education">
+                <img src="images/user5.jpg">
+                <div class="layer">
+                    <h3>MONA SCHOOL</h3>
+                    <p>2019</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #3dbef5;"></i></a>
+                </div>
+
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!--contact-->
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>   <i class="fa-solid fa-paper-plane" style="color: #a8f9ff;"></i>    npradnya2003@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin fa-bounce" style="color: #80ceff;"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook fa-bounce" style="color: #61fcff;"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram fa-bounce" style="color: #94fdff;"></i></a>
+                </div>
+                <a href="images/PRADNYA NALAWADE.pdf" download class="btn btn2">Download CV</a>
+            </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="E-mail" placeholder="Your E-mail" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+
+                
+                
+                </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Pradnya.<i class="fa-solid fa-heart" style="color: #66ffbd;"></i></p>
+    </div>
+</div>
+
+<script>
+    var tablinks =document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz88niZYNoDREP1NOikTjPd3rneNTIpFwQZsohsTdxdijASQ0OKrhPymgd6ehovW8qp/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Message Sent Successfully!!!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
